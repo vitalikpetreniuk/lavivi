@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>Главная</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <!--<link rel="icon" href="img/favicon.ico">-->
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000">
+    <!-- Custom Browsers Color End -->
+
+    <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+<div class="header-mob">
+    <div class="header-mob-in"></div>
+    <div class="header-mob-close"></div>
+</div>
+<header class="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="header-top-in">
+                <div class="header-region">
+                    <div class="header-region-title">Ваш регион доставки:</div>
+                    <div class="header-region-drop drop">
+                        <button type="button" class="header-region-drop-button drop-button">Москва</button>
+                        <div class="drop-cont">
+                            <div class="drop-cont-in">
+                                <div class="header-region-drop-list">
+                                    <button type="button" class="header-region-drop-item">Владивосток</button>
+                                    <button type="button" class="header-region-drop-item">Новосибирск</button>
+                                    <button type="button" class="header-region-drop-item">Санкт-Петербург</button>
+                                    <button type="button" class="header-region-drop-item">Сызрань</button>
+                                    <button type="button" class="header-region-drop-item">Тюмень</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-log">
+                    <a data-target="modal-login" href="#" class="modal-open">
+                        <img src="img/exit.svg" alt="login">
+                        <span>Вход</span>
+                    </a>
+                    <a href="#">
+                        <img src="img/user.svg" alt="account">
+                        <span>Регистрация</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-center">
+        <div class="container">
+            <div class="header-center-in">
+                <button class="header-toggle"><span></span></button>
+                <div class="header-tel">
+                    <a href="#"><span>0800</span> <b>555 6 999</b></a>
+                </div>
+                <div class="header-logo">
+                    <a href="#">
+                        <img src="img/logo-top.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header-center-right">
+                    <div class="header-search">
+                        <button type="button" class="header-search-button">
+                            <img src="img/search.svg" alt="search">
+                        </button>
+                        <div class="header-search-form">
+                            <form action="">
+                                <input type="search">
+                                <input type="submit" value="">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="header-cart">
+                        <a href="#">Корзина <span>$ 0.00</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="container">
+            <div class="header-bottom-in">
+                <div class="header-menu">
+                    <ul>
+                        <li>
+                            <a href="#">Новинки</a>
+                            <div class="header-menu-in">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col header-menu-col">
+                                            <div class="header-menu-col-title">Одежда</div>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Блузки и рубашки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Брюки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Верхняя одежда</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Водолазки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Джемперы и кардиганы</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Джинсы</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Жилеты</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Карнавальные костюмы</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Кигуруми</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Комбинезоны</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Костюмы</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col header-menu-col">
+                                            <div class="header-menu-col-title">Обувь</div>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Балетки и чешки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Босоножки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ботильоны</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ботинки и полуботинки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ботфорты</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Валенки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Галоши</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Дутики и сноубутсы</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Кеды и кроссовки</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col header-menu-col">
+                                            <div class="header-menu-col-title">Аксессуары</div>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Балетки и чешки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Босоножки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ботильоны</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ботинки и полуботинки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ботфорты</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Валенки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Галоши</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Дутики и сноубутсы</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">С повышенной полнотой</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Сабо и мюли</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Сандалии</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col header-menu-col header-menu-col-last">
+                                            <div class="header-menu-all">
+                                                <a href="#" style="background-image: url('img/menu-all.png')">
+                                                    <span>посмотреть все</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Хиты</a>
+                        </li>
+                        <li>
+                            <a href="#">Одежда</a>
+                        </li>
+                        <li>
+                            <a href="#">Обувь</a>
+                        </li>
+                        <li>
+                            <a href="#">Аксессуары</a>
+                        </li>
+                        <li>
+                            <a href="#">Бренды</a>
+                        </li>
+                        <li>
+                            <a href="#">Коллекции</a>
+                        </li>
+                        <li>
+                            <a href="#">Блог</a>
+                        </li>
+                        <li class="sale">
+                            <a href="#">Sale %</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="body">
+    <div class="banners-big">
+        <div class="banners-big-item">
+            <div class="banners-big-item-img">
+                <img src="img/banner-1.jpg" alt="banner-1">
+            </div>
+            <div class="banners-big-item-cont">
+                <div class="banners-big-item-logo">
+                    <img src="img/banner-logo-1.png" alt="logo">
+                </div>
+                <div class="banners-big-item-link">
+                    <a href="#" class="btn btn-white">посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="banners-big-item">
+            <div class="banners-big-item-img">
+                <img src="img/banner-2.jpg" alt="banner-2">
+            </div>
+            <div class="banners-big-item-cont">
+                <div class="banners-big-item-logo">
+                    <img src="img/banner-logo-2.png" alt="logo">
+                </div>
+                <div class="banners-big-item-link">
+                    <a href="#" class="btn">посмотреть</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offers">
+        <div class="container">
+            <div class="row offers-list">
+                <div class="col-lg-4">
+                    <div class="offers-item">
+                        <div class="offers-item-img">
+                            <img src="img/offer-1.jpg" alt="img">
+                        </div>
+                        <div class="offers-item-cont">
+                            <h2 class="offers-item-title">
+                                <a href="#">Размеры весна-лето</a>
+                            </h2>
+                            <div class="offers-item-link">
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="offers-item">
+                        <div class="offers-item-img">
+                            <img src="img/offer-2.jpg" alt="img">
+                        </div>
+                        <div class="offers-item-cont">
+                            <h2 class="offers-item-title">
+                                <a href="#">Летняя Романтика</a>
+                            </h2>
+                            <div class="offers-item-link">
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="offers-item">
+                        <div class="offers-item-img">
+                            <img src="img/offer-3.jpg" alt="img">
+                        </div>
+                        <div class="offers-item-cont">
+                            <h2 class="offers-item-title">
+                                <a href="#">20% Скидка на сумки</a>
+                            </h2>
+                            <div class="offers-item-link">
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tabs products">
+        <div class="container">
+            <div class="tabs-nav">
+                <button type="button" class="tabs-nav-item active">Хиты продаж</button>
+                <button type="button" class="tabs-nav-item">Новые товары</button>
+                <button type="button" class="tabs-nav-item">Распродажа <span>%</span></button>
+            </div>
+            <div class="tabs-cont">
+                <div class="tabs-cont-item active">
+                    <div class="row products-list">
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-1.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">Ventidue</div>
+                                    <div class="products-item-name">Жакет</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-first">5 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-2.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">VENTIDUE</div>
+                                    <div class="products-item-name">Сумка</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-first">2 229</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-3.jpg" alt="img">
+                                        <span class="product-labels">
+                                            <span class="product-label product-labels-new">new</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">VICENZA</div>
+                                    <div class="products-item-name">Платье</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-first">17 469</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-4.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">CARAMEL</div>
+                                    <div class="products-item-name">Платье</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-first">5 019</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-5.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">ALEATICO</div>
+                                    <div class="products-item-name">Брюки</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-first">899</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-6.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">VENTIDUE</div>
+                                    <div class="products-item-name">Пояс</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-first">5 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-7.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">IMAXILUISA</div>
+                                    <div class="products-item-name">Костюм</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-first">2 299</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-8.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">VICENZA</div>
+                                    <div class="products-item-name">Брюки</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-first">17 469</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-9.jpg" alt="img">
+                                        <span class="product-labels">
+                                            <span class="product-label product-labels-sale">sale</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">CARAMEL</div>
+                                    <div class="products-item-name">Платье</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-second">3 999</div>
+                                        <div class="products-item-price-first">5 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-10.jpg" alt="img">
+                                        <span class="product-labels">
+                                            <span class="product-label product-labels-sale">sale</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">ALEATICO</div>
+                                    <div class="products-item-name">Платье</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-second">999</div>
+                                        <div class="products-item-price-first">1 899</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show-more">
+                        <a href="#">
+                            <span>Смотреть больше</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="tabs-cont-item">
+                    <div class="row products-list">
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-6.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">VENTIDUE</div>
+                                    <div class="products-item-name">Пояс</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-first">5 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-7.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">IMAXILUISA</div>
+                                    <div class="products-item-name">Костюм</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-first">2 299</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-8.jpg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">VICENZA</div>
+                                    <div class="products-item-name">Брюки</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-first">17 469</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show-more">
+                        <a href="#">
+                            <span>Смотреть больше</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="tabs-cont-item">
+                    <div class="row products-list">
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-9.jpg" alt="img">
+                                        <span class="product-labels">
+                                            <span class="product-label product-labels-sale">sale</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">CARAMEL</div>
+                                    <div class="products-item-name">Платье</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-second">3 999</div>
+                                        <div class="products-item-price-first">5 399</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="products-item">
+                                <div class="products-item-img">
+                                    <a href="#">
+                                        <img src="img/product-10.jpg" alt="img">
+                                        <span class="product-labels">
+                                            <span class="product-label product-labels-sale">sale</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="products-item-cont">
+                                    <div class="products-item-brand">ALEATICO</div>
+                                    <div class="products-item-name">Платье</div>
+                                    <div class="products-item-price">
+                                        <div class="products-item-price-second">999</div>
+                                        <div class="products-item-price-first">1 899</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show-more">
+                        <a href="#">
+                            <span>Смотреть больше</span>
+                            <i class="fas fa-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banners-small">
+        <div class="banners-small-item banners-small-item-white">
+            <div class="banners-small-item-img">
+                <img src="img/banner-small-1.jpg" alt="banner">
+                <img src="img/banner-small-1-mob.jpg" alt="banner">
+            </div>
+            <div class="banners-small-item-cont">
+                <div class="banners-small-item-title">
+                    <a href="#">Городской стиль</a>
+                </div>
+                <div class="banners-small-item-desc">Aктуальных трендов, женственности, оверсайза и облегающих силуэтов, привычной клетки.</div>
+                <div class="banners-small-item-link">
+                    <a href="#" class="btn btn-white">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+        <div class="banners-small-item">
+            <div class="banners-small-item-img">
+                <img src="img/banner-small-2.jpg" alt="banner">
+                <img src="img/banner-small-2-mob.jpg" alt="banner">
+            </div>
+            <div class="banners-small-item-cont">
+                <div class="banners-small-item-title">
+                    <a href="#">Волшебный миг</a>
+                </div>
+                <div class="banners-small-item-desc">Aктуальных трендов, женственности, оверсайза и облегающих силуэтов, привычной клетки.</div>
+                <div class="banners-small-item-link">
+                    <a href="#" class="btn">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="seo-text">
+        <div class="container">
+            <h2 class="with-line">
+                <span>Практичная и модная одежда и аксессуары</span>
+            </h2>
+            <div class="seo-text-wrap text-toggle">
+                <div class="seo-text-cont text-block text-toggle-cont">
+                    <p>Интернет-магазин La VIvi – это доступные цены, широкий, регулярно обновляемый ассортимент. Покупателям предлагается электроника, книжная продукция, детские товары. В интернет-магазине можно приобрести продукцию для дома, продукты питания, товары для красоты, ювелирные изделия, игрушки. Для удобства пользования онлайн-каталог поделен на разделы, все товары можно сортировать по ряду критериев: цена, материал изготовления, сезонность, бренд.</p>
+                    <h5>Выгодный шопинг</h5>
+                    <p>Интернет-магазин La VIvi регулярно проводит масштабные распродажи. В рамках таких акций предоставляются большие скидки (до 95%) на одежду, обувь, детские товары. Условия распродаж распространяются и на электронику, продукты питания, товары для дома, книги и многое другое. Чтобы быть в курсе предстоящих скидок или появления в ассортименте новых моделей от любимых брендов, достаточно подписаться на email-рассылку. Интернет-магазин одежды своевременно информирует получателей рассылки о распродажах, обновлении ассортимента. Дополнительные выгодные условия действуют для постоянных покупателей Wildberries – персональная скидка, зависящая от процента выкупа вещей. В La VIvi всегда ответственно подходят к выбору поставщиков, со многими производителями мы работаем напрямую, поэтому все категории товаров отличаются высоким качеством, разнообразием моделей и цветов, доступными ценами.</p>
+                    <h5>Доставка и оплата без проблем</h5>
+                    <p>Онлайн-магазин La VIvi осуществляет бесплатную доставку по всей России с помощью собственной курьерской службы. Покупатель может также забрать заказ из пункта выдачи заказов. Любую одежду, обувь и другие товары можно примерить перед оплатой заказа курьеру или в пункте выдачи заказа, оборудованном удобными примерочными.</p>
+                    <p>Wildberries предлагает несколько различных вариантов оплаты заказа как при оформлении, так и по факту при получении, - банковскими картой или переводом, наличным расчетом или электронным платежом. Если товар не подошел, его можно вернуть с курьером как до оплаты заказа, так и после по почте или в одном из 7000 пунктов выдачи заказа в течение 21 дня.</p>
+                    <h5>Покупки всегда и везде</h5>
+                    <p>Купить одежду, обувь, аксессуары, детские товары и товары для дома в La VIvi можно быстро и просто. Удобный вариант - покупки через специальное мобильное приложение. Его можно скачать и установить на любой смартфон. В мобильном приложении можно заказать и другие доступные товары - электронику, продукты питания, книги.</p>
+                    <h5>Задать интересующий вопрос можно в любое время – наш call-центр работает 24/7.</h5>
+                    <p>Начни прямо сейчас!<br>
+                        Чтобы начать шопинг с La VIvi – необходимо пройти простую регистрацию на сайте, которая займет всего несколько минут. Оцените преимущества покупок одежды, обуви, электроники, детских товаров и продукции для дома, продуктов питания и книг в La VIvi  уже сейчас.</p>
+                </div>
+                <div class="text-toggle-button">
+                    <button type="button">
+                        <span>Читать больше</span>
+                        <span>Скрыть</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="articles">
+        <div class="container">
+            <h2>Полезные статьи</h2>
+            <div class="row articles-list">
+                <div class="col-lg-3 col-6">
+                    <div class="articles-item">
+                        <div class="articles-item-img">
+                            <a href="#">
+                                <img src="img/article-1.jpg" alt="article">
+                            </a>
+                        </div>
+                        <div class="articles-item-cont">
+                            <div class="articles-item-title">
+                                <a href="#">Лукбуки</a>
+                            </div>
+                            <div class="articles-item-desc">Каждый сезон - самый актуальные новинки и модные истории<br> Вдохновляемся!</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="articles-item">
+                        <div class="articles-item-img">
+                            <a href="#">
+                                <img src="img/article-2.jpg" alt="article">
+                            </a>
+                        </div>
+                        <div class="articles-item-cont">
+                            <div class="articles-item-title">
+                                <a href="#">Базовый гардероб</a>
+                            </div>
+                            <div class="articles-item-desc">Все то вы хотите знать о модной “униформе” на все случаии жизни</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="articles-item">
+                        <div class="articles-item-img">
+                            <a href="#">
+                                <img src="img/article-3.jpg" alt="article">
+                            </a>
+                        </div>
+                        <div class="articles-item-cont">
+                            <div class="articles-item-title">
+                                <a href="#">Instashopping</a>
+                            </div>
+                            <div class="articles-item-desc">Здесь собраны все важные новинки нашего Instagram. Покупаем в 1 клик!</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="articles-item">
+                        <div class="articles-item-img">
+                            <a href="#">
+                                <img src="img/article-4.jpg" alt="article">
+                            </a>
+                        </div>
+                        <div class="articles-item-cont">
+                            <div class="articles-item-title">
+                                <a href="#">Трикотаж</a>
+                            </div>
+                            <div class="articles-item-desc">Универсальный способ ухода</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subscription">
+        <div class="container">
+            <div class="subscription-in">
+                <h2 class="subscription-title">Подписка на новости</h2>
+                <div class="subscription-desc">Будь в курсе самых выгодных предложений!<br> Наши подписчики получают индивидульные скидки на все товары</div>
+                <div class="subscription-form">
+                    <form action="">
+                        <input type="email" placeholder="Ваш E-mail">
+                        <button type="button">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-col footer-col-1">
+                <div class="footer-logo">
+                    <a href="#">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="footer-title">Контакты</div>
+                <div class="footer-block">
+                    <div class="footer-info">
+                        <div class="footer-info-title">Телефоны:</div>
+                        <div class="footer-info-cont">
+                            <a href="#">+7 (435) 33-44-400</a>
+                            <a href="#">+7 (435) 33-44-404</a>
+                            <a href="#">+7 (435) 33-44-403</a>
+                            <a href="#">+7 (435) 33-44-401</a>
+                        </div>
+                    </div>
+                    <div class="footer-info">
+                        <div class="footer-info-title">Skype:</div>
+                        <div class="footer-info-cont">
+                            <a href="#">Lavivi_shop</a>
+                        </div>
+                    </div>
+                    <div class="footer-info">
+                        <div class="footer-info-title">E-mail:</div>
+                        <div class="footer-info-cont">
+                            <a href="#">info@lavivi.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col footer-col-2">
+                <div class="footer-title">Мы в соцсетях</div>
+                <div class="footer-block">
+                    <div class="footer-socials">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div class="footer-menu">
+                        <ul>
+                            <li>
+                                <a href="#">Fashion-блог La Vivi</a>
+                            </li>
+                            <li>
+                                <a href="#">Подарочные сертификаты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-title">Режим работы</div>
+                <div class="footer-block">
+                    <div class="footer-working-hours">
+                        <div class="footer-working-hours-block">
+                            <div>Пн-Пт:</div>
+                            <div>10:00 - 19:00</div>
+                        </div>
+                        <div class="footer-working-hours-block">
+                            <div>Сб:</div>
+                            <div>10:00 - 16:00</div>
+                        </div>
+                        <div class="footer-working-hours-block">
+                            <div>Вс:</div>
+                            <div>выходной</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col footer-col-3">
+                <div class="footer-title">Способы оплаты</div>
+                <div class="footer-block">
+                    <div class="footer-payments">
+                        <div class="footer-payments-list">
+                            <img src="img/mastercard.jpg" alt="mastercard">
+                            <img src="img/visa.jpg" alt="visa">
+                            <img src="img/mir.jpg" alt="mir">
+                        </div>
+                        <div class="footer-payments-text">Вы можете оплатить покупки наличными при получении, либо выбрать другой способ оплаты.</div>
+                    </div>
+                    <div class="footer-menu">
+                        <ul>
+                            <li>
+                                <a href="#">Публичная оферта</a>
+                            </li>
+                            <li>
+                                <a href="#">Программа лояльности</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col footer-col-4">
+                <div class="footer-title">Клиентам</div>
+                <div class="footer-block">
+                    <div class="footer-menu">
+                        <ul>
+                            <li>
+                                <a href="#">О магазине</a>
+                            </li>
+                            <li>
+                                <a href="#">Новости</a>
+                            </li>
+                            <li>
+                                <a href="#">Распродажа</a>
+                            </li>
+                            <li>
+                                <a href="#">Акции</a>
+                            </li>
+                            <li>
+                                <a href="#">Условия доставки и оплаты</a>
+                            </li>
+                            <li>
+                                <a href="#">Гарантия и возврат</a>
+                            </li>
+                            <li>
+                                <a href="#">Карта сайта</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">2020 © <a href="#">Lavivi.com</a> — модный интернет-магазин одежды, обуви и аксессуаров.<br> Все права защищены. Доставка по всей России.</div>
+    </div>
+</footer>
+
+<div data-id="modal-login" class="modal">
+    <div class="modal-cont">
+        <button type="button" class="modal-close">
+            <img src="img/close.png" alt="close">
+        </button>
+        <div class="modal-body">
+            <div class="modal-title">Вход</div>
+            <form action="">
+                <div class="form-block">
+                    <input type="text" placeholder="Ваш логин">
+                </div>
+                <div class="form-block">
+                    <input type="password" placeholder="**********">
+                </div>
+                <div class="form-label form-label-right">
+                    <a href="#">Забли пароль?</a>
+                </div>
+                <div class="form-submit">
+                    <input type="submit" value="войти" class="btn btn-filled">
+                </div>
+                <div class="form-label form-label-center">
+                    У Вас нет аккаунта ? - <a href="#">Регистрация</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-back"></div>
+</div>
+
+<script src="js/scripts.min.js"></script>
+
+</body>
+</html>

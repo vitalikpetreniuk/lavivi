@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>Возврат товаров</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <!--<link rel="icon" href="img/favicon.ico">-->
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000">
+    <!-- Custom Browsers Color End -->
+
+    <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+<div class="header-mob">
+    <div class="header-mob-in"></div>
+    <div class="header-mob-close"></div>
+</div>
+<header class="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="header-top-in">
+                <div class="header-region">
+                    <div class="header-region-title">Ваш регион доставки:</div>
+                    <div class="header-region-drop drop">
+                        <button type="button" class="header-region-drop-button drop-button">Москва</button>
+                        <div class="drop-cont">
+                            <div class="drop-cont-in">
+                                <div class="header-region-drop-list">
+                                    <button type="button" class="header-region-drop-item">Владивосток</button>
+                                    <button type="button" class="header-region-drop-item">Новосибирск</button>
+                                    <button type="button" class="header-region-drop-item">Санкт-Петербург</button>
+                                    <button type="button" class="header-region-drop-item">Сызрань</button>
+                                    <button type="button" class="header-region-drop-item">Тюмень</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-log">
+                    <a data-target="modal-login" href="#" class="modal-open">
+                        <img src="img/exit.svg" alt="login">
+                        <span>Вход</span>
+                    </a>
+                    <a href="#">
+                        <img src="img/user.svg" alt="account">
+                        <span>Регистрация</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-center">
+        <div class="container">
+            <div class="header-center-in">
+                <button class="header-toggle"><span></span></button>
+                <div class="header-tel">
+                    <a href="#"><span>0800</span> <b>555 6 999</b></a>
+                </div>
+                <div class="header-logo">
+                    <a href="#">
+                        <img src="img/logo-top.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header-center-right">
+                    <div class="header-search">
+                        <button type="button" class="header-search-button">
+                            <img src="img/search.svg" alt="search">
+                        </button>
+                        <div class="header-search-form">
+                            <form action="">
+                                <input type="search">
+                                <input type="submit" value="">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="header-cart">
+                        <a href="#">Корзина <span>$ 0.00</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="container">
+            <div class="header-bottom-in">
+                <div class="header-menu">
+                    <ul>
+                        <li>
+                            <a href="#">Новинки</a>
+                            <div class="header-menu-in">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col header-menu-col">
+                                            <div class="header-menu-col-title">Одежда</div>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Блузки и рубашки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Брюки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Верхняя одежда</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Водолазки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Джемперы и кардиганы</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Джинсы</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Жилеты</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Карнавальные костюмы</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Кигуруми</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Комбинезоны</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Костюмы</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col header-menu-col">
+                                            <div class="header-menu-col-title">Обувь</div>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Балетки и чешки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Босоножки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ботильоны</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ботинки и полуботинки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ботфорты</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Валенки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Галоши</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Дутики и сноубутсы</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Кеды и кроссовки</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col header-menu-col">
+                                            <div class="header-menu-col-title">Аксессуары</div>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Балетки и чешки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Босоножки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ботильоны</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ботинки и полуботинки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ботфорты</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Валенки</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Галоши</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Дутики и сноубутсы</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">С повышенной полнотой</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Сабо и мюли</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Сандалии</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col header-menu-col header-menu-col-last">
+                                            <div class="header-menu-all">
+                                                <a href="#" style="background-image: url('img/menu-all.png')">
+                                                    <span>посмотреть все</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Хиты</a>
+                        </li>
+                        <li>
+                            <a href="#">Одежда</a>
+                        </li>
+                        <li>
+                            <a href="#">Обувь</a>
+                        </li>
+                        <li>
+                            <a href="#">Аксессуары</a>
+                        </li>
+                        <li>
+                            <a href="#">Бренды</a>
+                        </li>
+                        <li>
+                            <a href="#">Коллекции</a>
+                        </li>
+                        <li>
+                            <a href="#">Блог</a>
+                        </li>
+                        <li class="sale">
+                            <a href="#">Sale %</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="body">
+    <div class="page-content">
+        <div class="page-content-title">
+            <div class="container">
+                <h1>Гарантия и возврат</h1>
+                <div class="breadcrumbs">
+                    <ul>
+                        <li>
+                            <a href="#">Главная</a>
+                        </li>
+                        <li>Гарантия и возврат</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-section">
+                <h5>Сроки возврата:</h5>
+                <p> Вы можете вернуть товар надлежащего качества в течение 14 дней, не считая дня покупки, если товар не подошел по размеру, фасону, габаритам, форме, расцветке или комплектации.</p>
+                <h5>Какой товар можно вернуть:</h5>
+                <p>Вы можете вернуть товар, сохранивший свои потребительские свойства и товарный вид. На нем не должно быть следов эксплуатации и носки, при этом есть оригинальная и неповрежденная упаковка (в том числе неповрежденная производственная слюда) и ярлыки.<br>
+                    Вы также можете вернуть товар ненадлежащего качества, подробнее об условиях возврата <a href="#">тут</a>.</p>
+                <h5>Способы возврата:</h5>
+                <p>Вы можете вернуть товары только через открытые пункты выдачи Lamoda, Почту России, открытые постаматы и пункты выдачи Pickpoint в течение 14 дней, не считая дня покупки.</p>
+                <h5>Как заполнить заявление на возврат:</h5>
+                <p>Для оформления возврата нужно заполнить заявление на возврат. Это можно сделать двумя способами:<br>
+                    - Если у вас есть личный кабинет и возможность распечатать заявление, мы рекомендуем электронное оформление через личный кабинет. Пошаговая инструкция тут.<br>
+                    - Если у вас нет личного кабинета или возможности распечатать заявление, вы можете заполнить возвратный бланк, вложенный в заказ, или написать заявление от руки. Образец заполнения заявления вручную.</p>
+                <h5>Что нужно приложить к товару на возврат:</h5>
+                <p>Независимо от выбранного способа возврата, к товару нужно приложить заявление на возврат и чек*.</p>
+                <h5>Сроки зачисления денежных средств:</h5>
+                <p> Мы переведем вам денежные средства в течение 10 дней с момента получения возвращенного товара на склад. О поступлении товара на склад и переводе в ваш адрес денежных средств, мы сообщим вам по смс. Подробнее об этом в п.7.3.5 оферты или в пункте 10 <a href="#">FAQ</a>.</p>
+                <h5>Почему для возврата нужен чек*:</h5>
+                <p> Вы имеете право оформить возврат без товарного чека. Однако, мы оставляем за собой право запросить дополнительное подтверждение, что товар куплен на Lamoda, а также отказать в возврате денежных средств, если подтверждения не будет.</p>
+                <p> Есть вопросы по возврату? Напишите нам на <a href="#">claims@lavivi.com</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="subscription no-mt">
+        <div class="container">
+            <div class="subscription-in">
+                <h2 class="subscription-title">Подписка на новости</h2>
+                <div class="subscription-desc">Будь в курсе самых выгодных предложений!<br> Наши подписчики получают индивидульные скидки на все товары</div>
+                <div class="subscription-form">
+                    <form action="">
+                        <input type="email" placeholder="Ваш E-mail">
+                        <button type="button">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-col footer-col-1">
+                <div class="footer-logo">
+                    <a href="#">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="footer-title">Контакты</div>
+                <div class="footer-block">
+                    <div class="footer-info">
+                        <div class="footer-info-title">Телефоны:</div>
+                        <div class="footer-info-cont">
+                            <a href="#">+7 (435) 33-44-400</a>
+                            <a href="#">+7 (435) 33-44-404</a>
+                            <a href="#">+7 (435) 33-44-403</a>
+                            <a href="#">+7 (435) 33-44-401</a>
+                        </div>
+                    </div>
+                    <div class="footer-info">
+                        <div class="footer-info-title">Skype:</div>
+                        <div class="footer-info-cont">
+                            <a href="#">Lavivi_shop</a>
+                        </div>
+                    </div>
+                    <div class="footer-info">
+                        <div class="footer-info-title">E-mail:</div>
+                        <div class="footer-info-cont">
+                            <a href="#">info@lavivi.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col footer-col-2">
+                <div class="footer-title">Мы в соцсетях</div>
+                <div class="footer-block">
+                    <div class="footer-socials">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div class="footer-menu">
+                        <ul>
+                            <li>
+                                <a href="#">Fashion-блог La Vivi</a>
+                            </li>
+                            <li>
+                                <a href="#">Подарочные сертификаты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-title">Режим работы</div>
+                <div class="footer-block">
+                    <div class="footer-working-hours">
+                        <div class="footer-working-hours-block">
+                            <div>Пн-Пт:</div>
+                            <div>10:00 - 19:00</div>
+                        </div>
+                        <div class="footer-working-hours-block">
+                            <div>Сб:</div>
+                            <div>10:00 - 16:00</div>
+                        </div>
+                        <div class="footer-working-hours-block">
+                            <div>Вс:</div>
+                            <div>выходной</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col footer-col-3">
+                <div class="footer-title">Способы оплаты</div>
+                <div class="footer-block">
+                    <div class="footer-payments">
+                        <div class="footer-payments-list">
+                            <img src="img/mastercard.jpg" alt="mastercard">
+                            <img src="img/visa.jpg" alt="visa">
+                            <img src="img/mir.jpg" alt="mir">
+                        </div>
+                        <div class="footer-payments-text">Вы можете оплатить покупки наличными при получении, либо выбрать другой способ оплаты.</div>
+                    </div>
+                    <div class="footer-menu">
+                        <ul>
+                            <li>
+                                <a href="#">Публичная оферта</a>
+                            </li>
+                            <li>
+                                <a href="#">Программа лояльности</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col footer-col-4">
+                <div class="footer-title">Клиентам</div>
+                <div class="footer-block">
+                    <div class="footer-menu">
+                        <ul>
+                            <li>
+                                <a href="#">О магазине</a>
+                            </li>
+                            <li>
+                                <a href="#">Новости</a>
+                            </li>
+                            <li>
+                                <a href="#">Распродажа</a>
+                            </li>
+                            <li>
+                                <a href="#">Акции</a>
+                            </li>
+                            <li>
+                                <a href="#">Условия доставки и оплаты</a>
+                            </li>
+                            <li>
+                                <a href="#">Гарантия и возврат</a>
+                            </li>
+                            <li>
+                                <a href="#">Карта сайта</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">2020 © <a href="#">Lavivi.com</a> — модный интернет-магазин одежды, обуви и аксессуаров.<br> Все права защищены. Доставка по всей России.</div>
+    </div>
+</footer>
+
+<div data-id="modal-login" class="modal">
+    <div class="modal-cont">
+        <button type="button" class="modal-close">
+            <img src="img/close.png" alt="close">
+        </button>
+        <div class="modal-body">
+            <div class="modal-title">Вход</div>
+            <form action="">
+                <div class="form-block">
+                    <input type="text" placeholder="Ваш логин">
+                </div>
+                <div class="form-block">
+                    <input type="password" placeholder="**********">
+                </div>
+                <div class="form-label form-label-right">
+                    <a href="#">Забли пароль?</a>
+                </div>
+                <div class="form-submit">
+                    <input type="submit" value="войти" class="btn btn-filled">
+                </div>
+                <div class="form-label form-label-center">
+                    У Вас нет аккаунта ? - <a href="#">Регистрация</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-back"></div>
+</div>
+
+<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
